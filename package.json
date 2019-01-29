@@ -10,7 +10,9 @@
     "e2e": "ng e2e",
     "installapi": "npm install C:\\src\\Development\\12.0\\Web\\AdeptWeb\\Synergis.WebClient\\dist\\ui-api\\ui-api-0.0.1.tgz",
     "buildplugin": "ng build my-plugin && npm run copyplugin",
-    "copyplugin": "copy .\\dist\\my-plugin\\bundles\\my-plugin.umd.min.js C:\\src\\Development\\12.0\\Web\\AdeptWeb\\Synergis.WebClient\\src\\assets\\plugins\\"
+    "copyplugin": "copy .\\dist\\my-plugin\\bundles\\my-plugin.umd.min.js C:\\src\\Development\\12.0\\Web\\AdeptWeb\\Synergis.WebClient\\src\\assets\\plugins\\",
+    "buildplugin2": "ng build my-plugin2 && npm run copyplugin2",
+    "copyplugin2": "copy .\\dist\\my-plugin2\\bundles\\my-plugin2.umd.min.* C:\\src\\Development\\12.0\\Web\\AdeptWeb\\Synergis.WebClient\\src\\assets\\plugins\\"
   },
   "private": true,
   "dependencies": {
@@ -31,7 +33,7 @@
     "primeng": "^7.0.4",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
-    "ui-api": "file:../../src/Development/12.0/Web/AdeptWeb/Synergis.WebClient/dist/ui-api/ui-api-0.0.1.tgz",
+    "ui-api": "file:C:/src/Development/12.0/Web/AdeptWeb/Synergis.WebClient/dist/ui-api/ui-api-0.0.1.tgz",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {

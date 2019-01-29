@@ -24,6 +24,12 @@
       ],
       "my-plugin/*": [
         "dist/my-plugin/*"
+      ],
+      "my-plugin2": [
+        "dist/my-plugin2"
+      ],
+      "my-plugin2/*": [
+        "dist/my-plugin2/*"
       ]
     }
   }
